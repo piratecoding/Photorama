@@ -41,6 +41,11 @@ gem "paperclip", "~> 6.0.0"
 # Adding Simple form gem
 gem 'simple_form'
 
+# Adding Bootstrap gem
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'jquery-rails'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
@@ -58,5 +63,3 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Adding Paperclip gem
-gem "paperclip", "~> 6.0.0"
