@@ -9,15 +9,19 @@
   </head>
 
   <body>
-  <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        <img alt="Brand" src="...">
-      </a>
-    </div>
-  </div>
-</nav>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "Photorama", root_path, id: "logo" %>
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "New post", new_post_path %></li>
+            <li><%= link_to "Log in",   '#' %></li>
+            <li><%= link_to "Register", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+        <div class="container">
     <%= yield %>
   </body>
 </html>
