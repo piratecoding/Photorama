@@ -48,6 +48,10 @@ gem 'jquery-rails'
 # Devise gem for authorisation
 gem 'devise'
 
+# Gem for pagination 
+# This gem is bugged, so it is necessary to add this git link for it to work
+gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
