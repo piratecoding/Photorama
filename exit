@@ -1,0 +1,59 @@
+[33mcommit 40368b9c14afdb8949d47c435a103915b5ac4b67[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Fri Jun 22 21:25:24 2018 +0200
+
+    Added pagination
+
+[33mcommit 7f839ec0d64f246c810800ae41d38b6bb75d08b0[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Mon May 28 23:15:07 2018 +0200
+
+    Fixed authorization and authentication / added  comments section with some AJAX magic
+
+[33mcommit d814c362e29bf1a921e67e09cfafee1a98e36694[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Sat May 26 23:39:58 2018 +0200
+
+    Added Devise gem
+
+[33mcommit 71c648fcb4adc3c5f66db57cd5ec59bfdabbe592[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Mon May 21 23:00:20 2018 +0200
+
+    Added new actions in controller
+
+[33mcommit a80b9d66bedf720f2e3e4e2067ab8e83b7333cfd[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Wed May 16 23:22:42 2018 +0200
+
+    Added some styling
+
+[33mcommit d88c4cb5e68b8d31a9ec9fce177d98e1cd0ec5f7[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Tue May 15 23:14:25 2018 +0200
+
+    Add some styling
+
+[33mcommit 70c8e9ee824f7dcdd0649dbb242cf520fe0bb2fe[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Sat May 12 20:13:31 2018 +0200
+
+    Added Bootstrap gem
+
+[33mcommit ea0362a58f8d16431ab2032977fe3951c764d745[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Fri May 11 21:48:36 2018 +0200
+
+    Add simple_form gem
+
+[33mcommit 8e2740d4dccb8afbe05b7321fe77c802afbb4710[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Fri May 11 21:08:08 2018 +0200
+
+    Added Paperclip gem
+
+[33mcommit 5ea12710319c72473be6cbd9a0f7f9f95cdc25b9[m
+Author: zlatanowsky <amaratc@gmail.com>
+Date:   Thu May 10 19:47:25 2018 +0200
+
+    Initial commit
