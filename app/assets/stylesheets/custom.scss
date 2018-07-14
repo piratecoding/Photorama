@@ -145,11 +145,15 @@ body {
 .registration-bg {
   padding-top: 4em;
   height: 100%;
-  background-image: image-url('background.jpg');
+  background-image: image-url('bg.jpg');
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: fixed; 
+  top: 10; 
+  left: 0; 
+  right: 0;
 }
 
 .login-bg {
@@ -160,6 +164,11 @@ body {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: fixed; 
+  top: 10; 
+  left: 0; 
+  right: 0;
+  background-size: 100% 100%;
 }
 
 .log-in{
