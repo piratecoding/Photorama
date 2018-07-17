@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   get 'profiles/show'
 
+  get 'browse', to: 'posts#browse', as: :browse_posts
+
   devise_for :users, :controllers => { registrations: 'registrations' }
   root "posts#index"
 	resources :posts do
