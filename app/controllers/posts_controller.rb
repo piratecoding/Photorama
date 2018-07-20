@@ -5,6 +5,10 @@ class PostsController < ApplicationController
 
 	def index
 	  @posts = Post.of_followed_users(current_user.following).order('created_at DESC').page params[:page]
+	  	respond_to do |format|
+      	format.js
+				format.html
+			end
 	end
 
 	def new
@@ -65,6 +69,10 @@ class PostsController < ApplicationController
 
 	def browse
 	  @posts = Post.all.order('created_at DESC').page params[:page]
+	  	respond_to do |format|
+      	format.js
+				format.html
+			end
 	end
 
 	private

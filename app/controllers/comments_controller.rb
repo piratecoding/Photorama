@@ -7,6 +7,7 @@ class CommentsController < ApplicationController
 
     respond_to do |format|
       format.html { render layout: !request.xhr? }
+      format.js
     end
   end
   
@@ -41,11 +42,11 @@ class CommentsController < ApplicationController
 	private
 
   def create_notification(post, comment)
-    return if post.user.id == current_user.id 
+    return if post.user == current_user 
     Notification.create(user_id: post.user.id,
                         notified_by_id: current_user.id,
                         post_id: post.id,
-                  comment_id: comment.id,
+                        comment_id: comment.id,
                         notice_type: 'comment')
   end
 
