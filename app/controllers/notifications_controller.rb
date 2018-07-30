@@ -6,6 +6,11 @@ class NotificationsController < ApplicationController
   end
 
   def index
-  	@notifications = current_user.notifications
+  	@notifications = current_user.notifications.order('created_at DESC').page params[:page]
+
+    respond_to do |format|
+      format.js
+      format.html
+		end
 	end
 end
